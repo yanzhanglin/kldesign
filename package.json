@@ -32,6 +32,10 @@
       "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
+    "globals": {
+      "defineProps": "readonly",
+      "defineEmits": "readonly"
+    },
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
@@ -45,4 +49,5 @@
     "not dead",
     "not ie 11"
   ]
+
 }
