@@ -63,7 +63,7 @@
   
       // 文字基础样式
       .link-text {
-        color: #080808;
+        color: #fafafa;
         font-size: 1rem;
         letter-spacing: 2px;
         position: relative;
@@ -88,7 +88,7 @@
       // 激活状态指示
       &.router-link-active {
         .link-text {
-          color: #0b0a0a;
+          color: #fafafa;
           text-shadow: 0 0 12px rgba(246, 246, 241, 0.3);
         }
         

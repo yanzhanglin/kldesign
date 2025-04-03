@@ -1,8 +1,8 @@
 <template>
   <div class="cases-view">
     <div class="section-header">
-      <h1 class="section-title">KL-Design</h1>
-      <p class="section-subtitle">KL-Media</p>
+      <h1 class="section-title">KL-STUDIO</h1>
+      <p class="section-subtitle">KL-MEDIA</p>
     </div>
     <div class="video-grid">
       <VideoCard
@@ -20,12 +20,12 @@ const videos = [
   {
     title: '中移动设计',
     cover: require('@/assets/chinamobile.jpg'),
-    url: 'https://zcool-video.zcool.cn/alivod/67e0ff94a9db7tzv8xgf1y3516_H264_1_13ee59baf0907a1.mp4?k=d305e7f4f3d73a944aebddb54e79bbca&t=67eac96e'
+    url: 'https://www.bilibili.com/video/BV1HvX6YdEer?t=9.6'
   },
   {
     title: '黑暗森林概念',
     cover: require('@/assets/blackforest.jpg'),
-    url: 'https://zcool-video.zcool.cn/alivod/67d1394dd9be29u0v19p7b1868_H264_1_198a6353ff5c6a.mp4?k=9884796e991eb0dbdf5663f18b5f45b2&t=67eaca85'
+    url: 'https://www.bilibili.com/video/BV1ao4y1U71H?t=0.8'
   },
   {
     title: '苏宁',
@@ -50,7 +50,7 @@ const videos = [
   {
     title: '数字人',
     cover: require('@/assets/human.jpg'),
-    url: 'https://zcool-video.zcool.cn/alivod/67d1394dd9be29u0v19p7b1868_H264_1_198a6353ff5c6a.mp4?k=9884796e991eb0dbdf5663f18b5f45b2&t=67eaca85'
+    url: 'https://www.bilibili.com/video/BV1yAQJYPErD?t=1.6'
   },
   // 添加更多视频...
 ]
@@ -61,6 +61,7 @@ const videos = [
   width: 100%;
   margin: 0 auto;
   padding: 2rem 0;
+  background: #302f2f;
 }
 
 .video-grid {
@@ -118,15 +119,15 @@ const videos = [
 
 .section-title {
   font-size: 2.5rem;
-  color: #0a0a0a;
+  color: #ffffff;
   margin-bottom: 1rem;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(248, 247, 247, 0.3);
   letter-spacing: 2px;
 }
 
 .section-subtitle {
   font-size: 1.2rem;
-  color: rgba(14, 13, 13, 0.8);
+  color: rgba(250, 249, 249, 0.8);
   margin: 0;
 }
 

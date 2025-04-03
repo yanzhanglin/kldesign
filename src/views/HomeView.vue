@@ -1,6 +1,6 @@
 <template>
   <div class="home-view">
-    <h1 class="content">KL-Design</h1>
+    <h1 class="content">KL-STUDIO</h1>
     <div class="video-container">
       <video autoplay muted loop id="background-video">
       <source src="@/assets/bg-video.mp4" type="video/mp4">
@@ -48,7 +48,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2; /* 确保文字在视频上方 */
-  color: rgba(7, 6, 6, 0.944); /* 根据背景色调整 */
+  color: rgba(253, 253, 253, 0.944); /* 根据背景色调整 */
   text-align: center;
   text-shadow: 12px 12px 24px;
   font-size: 60px;
