@@ -21,7 +21,7 @@
   
   <style scoped>
   .contact-view {
-    min-height: 100vh;
+    min-height: auto;
     padding: 2rem;
     background: #302f2f;
     color: white;

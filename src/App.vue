@@ -1,10 +1,17 @@
 <template>
+  <div>
+  <HomeView id="home"></HomeView>
+  <CasesView id="case"></CasesView>
+  <ContactView id="contact"></ContactView>
   <AppHeader />
-  <router-view />
 
+  </div>
 </template>
 
 <script setup>
+import HomeView from './views/HomeView.vue';
+import CasesView from './views/CasesView.vue';
+import ContactView from './views/ContactView.vue';
 import AppHeader from '@/components/AppHeader.vue'  
 </script>
 

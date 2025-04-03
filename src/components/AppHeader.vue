@@ -7,13 +7,9 @@
           :key="index"
           class="nav-item"
         >
-          <router-link 
-            :to="item.path" 
-            class="nav-link"
-          >
-            <span class="link-text">{{ item.title }}</span>
-            <!-- <span class="hover-effect"></span> -->
-          </router-link>
+        <a  :href="`#${item.target}`" class="nav-link">
+          <span class="link-text">{{ item.title }}</span>
+        </a>
         </li>
       </ul>
     </nav>
@@ -22,11 +18,9 @@
   <script setup>
   // 导航项配置
   const navItems = [
-    { title: '首页', path: '/' },
-    { title: '案例', path: '/cases' },
-    { title: '团队', path: '/team' },
-    { title: '服务', path: '/services' },
-    { title: '联系', path: '/contact' }
+    { title: '首页', target: 'home' },
+    { title: '案例', target: 'case' },
+    { title: '联系', target: 'contact' }
   ]
   </script>
   

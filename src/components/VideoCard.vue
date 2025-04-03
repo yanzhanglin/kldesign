@@ -14,6 +14,8 @@
         <div class="hover-overlay">
           <h3 class="title">{{ video.title }}</h3>
         </div>
+
+        
       </div>
     </a>
   </template>
