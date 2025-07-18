@@ -24,7 +24,7 @@ const videosList = [
     id:1,
     title: '中移动设计',
     cover: require('@/assets/chinamobile.jpg'),
-    url: 'https://www.bilibili.com/video/BV1yAQJYPErD?t=0.7'
+    url: 'https://mp.weixin.qq.com/s/Ex9L4GvWI5S1E3GhYjj-vw'
   },
   {
     id:2,
